@@ -1,0 +1,29 @@
+body{
+    width: 770px;
+    margin-left: 300px;
+    font-size: 20px;    
+}
+pre{
+    font-size: 18px;
+}
+.size{
+    font-size: 30px;
+
+}
+
+
+.title{
+    font-size: 48px;
+}
+a{
+    text-decoration: none;
+}
+.img2{
+    width: 572px;
+}
+.open-window{
+    width: 186px;
+    padding: 12px 10px;
+    background-color: #0067b8;
+    text-align: center;
+}

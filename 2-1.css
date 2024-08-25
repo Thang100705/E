@@ -1,0 +1,48 @@
+body{
+    margin: 100px 350px;
+    text-align: center;
+}
+.header{
+    width: 820px
+}
+.header span{
+    color: #8c888c;
+    font-size: 20px;
+}
+.header div{
+    font-size: 60px;
+    font-weight: 900;
+}
+.time{
+    font-size: 16px;
+}
+.time span{
+    color: #8c888c;
+    font-weight: 100;
+}
+.time div{
+    border-bottom: 4px solid #111;
+    width: 110px;
+    margin: 10px 350px;
+}
+.container{
+        margin: 0 80px;
+}
+.container pre{
+    font-size: 20px;
+}
+.container__title{
+    font-size: 22px;
+}.container p{
+    font-size: 22px;
+}
+.img{
+    width: 800px;
+    text-align: center;
+    margin-right: 100px;
+}
+.container__tacgia{
+    margin-right: 150px;
+    color: #7c777c;
+    width: 110%;
+}
