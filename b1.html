@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bai1.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            padding: 20px;
+        }
+
+        h2 {
+            color: aqua;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin: 5px 0;
+            line-height: 1.6;
+        }
+
+        .intro {
+            color: #555;
+            font-style: italic;
+        }
+
+        #demo1,
+        #demo2 {
+            font-weight: bold;
+            color: #000000;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Cuộc sống hàng ngày</h2>
+    <p>Chào buổi sáng!</p>
+    <p>Hôm nay trời đẹp, thích hợp để đi dạo và thưởng thức một tách cà phê.</p>
+    <p id="demo1"></p>
+
+    <h2>Cuộc sống hàng ngày</h2>
+    <p>Chào buổi sáng!</p>
+    <p class="intro">Hãy tận hưởng ngày mới với nhiều niềm vui và hạnh phúc.</p>
+    <p class="intro">Hôm nay trời đẹp, thích hợp để đi dạo và thưởng thức một tách cà phê.</p>
+    <p id="demo2"></p>
+
+    <script>
+        var x = document.getElementsByTagName("p");
+        document.getElementById("demo1").innerHTML = 'Thông điệp đầu tiên (index 0) là: ' + x[0].innerHTML;
+
+        var x = document.getElementsByClassName("intro");
+        document.getElementById("demo2").innerHTML = 'Thông điệp đầu tiên (index 0) là: ' + x[0].innerHTML;
+
+    </script>
+</body>
+
+</html>
