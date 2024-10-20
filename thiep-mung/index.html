@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EDT Gửi đến người nhận</title>
+  <link rel="icon" type="image/x-icon"
+    href="https://png.pngtree.com/template/20190927/ourlarge/pngtree-letter-t-line-logo-designs-image_312013.jpg">
+  <link rel="stylesheet" href="canvas.css" />
+  <link rel="stylesheet" href="present.css" />
+  <link rel="stylesheet" href="card.css" />
+  <link rel="stylesheet" href="index.css" />
+  <script src="jquery.js"></script>
+</head>
+
+<body>
+  <div class="parent">
+    <canvas id="canvas"></canvas>
+    <section class="above-fold">
+      <div class="wrap-present">
+        <div class="present-box" id="present">
+          <div class="present">
+            <div class="img-wrap" id="present-image"></div>
+          </div>
+          <div class="side front"></div>
+          <div class="side back"></div>
+          <div class="side left"></div>
+          <div class="side right"></div>
+          <div class="side top">
+            <span class="to">
+              <span class="name" id="nametag"> </span>
+            </span>
+          </div>
+          <div class="side bottom"></div>
+        </div>
+      </div>
+      <p class="info-text">Ấn vào nền để đổi </p>
+    </section>
+
+    <div id="card">
+      <h4 class="title-card">💘little coder💘</h4>
+
+      <img src="https://img.lovepik.com/free-png/20210923/lovepik-hydrangea-png-image_401196699_wh1200.png"
+        class="honey" />
+
+      <h4 class="content-card">
+        Happy Birthday Make A Wish. Dear brother, hope you receive everything
+        you wish for this year. You deserve the best! Thanks for being such a
+        great brother.💘
+      </h4>
+    </div>
+  </div>
+</body>
+<script src="config.js"></script>
+<script src="canvas.js"></script>
+<script src="present.js"></script>
+<script>
+  document.addEventListener("contextmenu", function (event) {
+    event.preventDefault();
+  });
+  document.onkeydown = function (e) {
+    if (e.ctrlKey && (e.key === 'u' || e.key === 'U' || e.key === 'i' || e.key === 'I' || e.key === 'j' || e.key === 'J' || e.key === 'S' || e.key === 's')) {
+      return false;
+    }
+  };
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "F12") {
+      event.preventDefault();  // Ngăn hành động mặc định của F12
+    }
+  });
+
+
+
+
+
+</script>
+
+</html>
